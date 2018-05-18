@@ -3,15 +3,9 @@ from django.shortcuts import render, get_object_or_404
 from django.utils import timezone
 from .models import Post
 from .forms import PostForm
-<<<<<<< HEAD
 from django.shortcuts import render_to_response
 from django.db.models import Q
 
-    
-=======
-
-
->>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0
 def post_new(request):
     if request.method == "POST":
         form = PostForm(request.POST, request.FILES)
@@ -49,7 +43,6 @@ def post_list(request):
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     return render(request, 'blog/post_detail.html', {'post':post})
-<<<<<<< HEAD
 
 def search(request):
     query = request.GET.get('q', '')
@@ -66,5 +59,3 @@ def search(request):
         "results": results,
         "query":query
     })
-=======
->>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0

@@ -3,18 +3,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
     <title>Search {% if query%} Results {% endif%}</title>
-=======
-    <title>Portal Asuntos Juridicos</title>
->>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 </head>
 <body>
-<<<<<<< HEAD
 <div class="busqueda">
     <form class="navbar-form navbar-right" role="search" action="/post/search/">
         <div class="form-group">
@@ -24,18 +19,12 @@
     </form>
 </div>
 <div class="page-header">
-=======
-<div class="page-header">
-    <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-    <a href="{% url 'index' %}" class="top-menu"><span class="glyphicon glyphicon-home"></span></a>
->>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0
     <h1><a href="/"> Documentación Tributaria</a></h1>
 </div>
 <div class="content container">
     <div class="row">
         <div class="col-md-8">
             {% block content %}
-<<<<<<< HEAD
                 
                     {% if query %}
 
@@ -60,8 +49,6 @@
                         {% endif %}
                     {% endif %}
                 </div>
-=======
->>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0
             {% endblock %}
         </div>
     </div>
