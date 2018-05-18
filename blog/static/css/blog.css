@@ -1,9 +1,40 @@
 .page-header {
     background-color: #97c503;
+<<<<<<< HEAD
+    margin-top: 0px;
+    padding: 10px 20px 30px 30px;
+}
+
+.borde{
+    align:left;
+    padding: 0px 0px 800px;
+    border-color:#f9f9f9;
+}
+
+.tabla{
+    padding: 0px 30px;
+}
+
+.nuevo{
+    padding-top: 30px;
+    align:right;
+}
+
+.busqueda{
+    margin-top: 0px;
+    margin-right: 10px;
+    align-self: auto; 
+}
+.left{
+    float: left;
+    
+}
+=======
     margin-top: 0;
     padding: 10px 10px 20px 60px;
 }
 
+>>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 30pt;
@@ -11,11 +42,19 @@
 }
 
 .content {
+<<<<<<< HEAD
+    margin-left: 0px;
+=======
     margin-left: 40px;
+>>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0
 }
 
 h1, h2, h3, h4 {
     font-family: 'DejaVu Regular', cursive;
+<<<<<<< HEAD
+    color: #97c503;
+=======
+>>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0
 }
 
 .date {

@@ -1,6 +1,15 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
+<<<<<<< HEAD
+    <div class="col-sm-10">
+        <div class="nuevo">
+        <a href="{% url 'post_new' %}"><button type="button" class="btn btn-success btn-sm">Agregar item</button></a>
+    </div>
+        
+    {% for post in posts %}
+        <div class="post">
+=======
 
     <table class="table table-striped">
         <thead>
@@ -25,15 +34,21 @@
     {% for post in posts %}
 
     <div class="post">
+>>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0
             <div class="date">
                 {{ post.published_date }}
             </div>
             <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
             <p>{{ post.text|linebreaksbr }}</p>
         </div>
+<<<<<<< HEAD
+    
+    {% endfor %}    
+=======
 
         {% endfor %}
 -->
+>>>>>>> b3618b8a125e1092767ae066f7ae983f48e8b0e0
 {% endblock %}
 
 
